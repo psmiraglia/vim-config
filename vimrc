@@ -29,7 +29,7 @@ set laststatus=2
 hi StatusLine ctermbg=None ctermfg=DarkGrey
 
 """ 78 char
-hi OverLength ctermbg=LightMagenta ctermfg=LightGrey guibg=#592929
+hi OverLength ctermbg=DarkGrey ctermfg=LightGrey guibg=#592929
 match OverLength /\%79v.\+/
 
 """ comments
